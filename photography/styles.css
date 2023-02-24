@@ -1,0 +1,258 @@
+body { margin:0px; padding:0px;}
+@font-face {
+    font-family: 'milky_coffeeregular';
+    src: url('../milky_coffee-webfont.woff2') format('woff2'),
+         url('../milky_coffee-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {font-family: 'milky_coffeeregular';}
+h2 {font-family: 'milky_coffeeregular';}
+p {font-family:futura;}
+a {font-family:'milky_coffeeregular';}
+
+
+header {
+    background-color: #F7A2FE;  
+    margin: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  display: inline;
+}
+
+  li {
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+      width: 50%;
+    padding: 2%;
+    display: grid;
+  }
+
+
+
+  li a {    
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    font-size: 1.5rem;
+    border-radius: 2vw;
+    text-align: center;
+  }
+
+
+  .link {
+    background-color: white;
+    margin: 1vw;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #mimi {
+   width: 80%;
+   margin-top: -39px;
+   margin-bottom: -50px;
+  }
+
+  #subtitle {
+    margin: auto;
+    padding: 10px;
+  }
+
+  #introduction {
+    background-color:#D7FCFF;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  #desktop {
+    display:none;
+  }
+  #mobile {
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 50px;
+  }
+  
+  #portrait {
+    width: 80vw;
+    margin: auto;
+    display: block;
+  }
+
+  #subtitle h2{
+    font-size: 3rem;
+    color:#5AB0B8;
+  }
+
+  #photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    margin: auto;
+    text-align: center;
+  }
+
+  #photos img {
+    width: 80%;
+    height: 80%;
+    border-color:#D7FCFF;
+    border-width: 10px;
+    border-style:solid;
+  }
+
+  #photos p{
+    display: none;
+  }
+
+section h2 {
+    color:#5AB0B8;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+  #photos div {
+    column-width: 250px;
+    margin: auto;
+    padding: 0px;
+    margin: auto;
+  }
+  footer {
+    padding-top: 50px;
+    margin: auto;
+  }
+  
+  footer div {
+    background-color: #F7A2FE;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around ;
+    font-size: 2vw;
+  }
+  @media only screen and (min-width: 600px) {
+
+  nav {
+    margin-left: -5vw;
+    margin-right: 0vw;
+  }
+
+  .link {
+    padding:20px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 0px;
+    margin-left: 0px;
+
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+  }
+
+  #mimi {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 150px;
+    display: block;
+    align-content: center;
+  }
+
+  .link:hover {
+    background-color:#7788F7;
+    }
+    
+    #mimi:hover {
+    filter: grayscale();
+    }
+    
+    #subtitle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin-top: 50px;
+      }
+      
+      #mobile {
+        display: none;
+      }
+    
+      #desktop {
+        display: grid;
+        font-size: 1.5vw;
+      }
+
+
+#introduction {
+    padding: 5%;
+    margin-top: 50px;
+    background-color:#D7FCFF;
+    padding-bottom: 0%;
+  }
+
+  #portrait {
+    width: 50vw;
+  }
+
+  #subtitle h2 {
+    line-height: 0vw;
+    margin-bottom: 10px;
+    font-size: 3vw;
+      }
+
+
+  #photos {
+    display: flex;
+    width: 78vw;
+    background-color: #F2E4FF;
+    padding-top: 10px;
+    padding-left: 20px;
+    overflow-x: scroll;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#7788F7;
+    padding-right: 80px;
+  }
+
+  #photos div {
+    margin-left: 10px;
+    margin-right: 50px;
+    margin: 50px;
+  }
+
+  section {
+    margin: auto;
+    padding-top: 80px;
+    font-size: 1.5vw;
+  }
+
+
+  #photos img {
+    width: auto;
+    height: auto;
+    border-width: 0px;
+  }
+
+  #photos p{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+section h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 5vw;
+  }
+  }
