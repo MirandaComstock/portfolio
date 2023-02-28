@@ -222,5 +222,14 @@ ul {
         margin-top: 100px;
       }
 
+      section h2 {
+        font-size: 2.5vw;
+        text-align: left;
+      }
+
+      section p{
+        font-size: 1.5vw;
+        text-align: left;
+      }
 
   }
