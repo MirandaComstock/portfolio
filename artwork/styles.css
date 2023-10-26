@@ -67,7 +67,7 @@ ul {
   #introduction {
     background-color:#EBEDFF;
     padding: 20px;
-    margin: 10px;
+    margin: 15px;
   }
   
   #desktop {
@@ -80,7 +80,7 @@ ul {
   }
   
   #portrait {
-    width: 80vw;
+    width: 90%;
     margin: auto;
     display: block;
   }
@@ -94,7 +94,7 @@ ul {
     display: block;
     margin: auto;
     text-align: center;
-    width: 80vw;
+    width: 80%;
   }
 
 
@@ -105,19 +105,13 @@ ul {
   }
 
   section p {
-    margin-top: -10px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
+    margin: 5px;
   }
 
-  section iframe{
-    width: 80vw;
-    height: 45vw;
-    border-color:#EBEDFF;
-    border-width: 10px;
-    border-style:solid;
-    margin-left: -20px;
-  }
+
 
   article div {
     background-color:#EBEDFF;
@@ -126,6 +120,7 @@ ul {
     padding-bottom: 1vw;
     margin-bottom: 80px;
   }
+
 
   footer {
     padding-top: 50px;
@@ -187,6 +182,7 @@ ul {
         grid-template-columns: 1fr 1fr;
         width: 80%;
         margin-top: 50px;
+        margin-bottom: 20px;
       }
       
       #mobile {
@@ -199,13 +195,12 @@ ul {
       }
 
 
-#introduction {
+#introduction {    
     padding: 5%;
-    margin: 0px;
-    margin-bottom: 400px;
     margin-left: 10px;
     background-color:#EBEDFF;
-    padding-bottom: 0%;
+    margin-top: 50px;
+    height: fit-content;
   }
 
   #portrait {
@@ -214,7 +209,6 @@ ul {
 
   #subtitle h2 {
     line-height: 0vw;
-    margin-bottom: 10px;
     font-size: 3vw;
       }
   
@@ -222,18 +216,27 @@ ul {
       section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 0px;
+        margin-top: 0vw;
         justify-content: space-between;
-      }
-    
-
-    
-      section iframe{
-        width: 40vw;
-        height: 22.5vw;
-        margin-right: 50vw;
-        margin-left: -40vw;
-        margin-top: 100vw;
+        width: fit-content;
       }
 
-  }
+      section h2 {
+        font-size:2vw;
+      }
+
+      section p {
+        font-size: 1.5vw;
+      }
+    img {
+      width:fit-content;
+    }
+
+    article img {
+    width:25vw;
+    }
+      
+    }
+
+
+
