@@ -61,6 +61,7 @@ ul {
 
   #subtitle {
     margin: auto;
+    margin-bottom: 30px;
     padding: 10px;
   }
 
@@ -140,7 +141,7 @@ footer div {
   @media only screen and (min-width: 600px) {
 
   nav {
-    margin-left: -5vw;
+    margin-left: 0vw;
     margin-right: 0vw;
   }
 
@@ -150,7 +151,7 @@ footer div {
 
   .link {
     padding:20px;
- /proto/glmoFwSt1dfVVA5NIryLNW }
+  }
 
   ul {
     display: grid;
@@ -265,15 +266,13 @@ footer div {
    
    #flag {
    height: fit-content;
-   width: fit-content;
+   width: 60vw;
 
    }
   
   .website {
     display: block;
-    width: 75vw;
-    height: 30vw;
-    margin:auto;    
+    width: 95%;
     border-width:20px;
     border-style:solid;
     border-color: #FFE7EF;
@@ -287,6 +286,7 @@ footer div {
   section p{
     margin-bottom: 100px;
     width: 50%;
+    height: 10vw;
     margin: auto;
     display: inline;
       }
