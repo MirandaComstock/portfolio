@@ -12,6 +12,9 @@ h2 {font-family:futura;}
 p {font-family:futura;}
 a {font-family:futura;}
 
+h1 {
+  display: none;
+}
 
 header {
     background-color: #F7A2FE;  
@@ -211,6 +214,13 @@ section h2 {
     font-size: 3vw;
       }
 
+      h1 {
+        display:block;
+        text-align: center;
+        margin: auto;
+        font-size: 1.4pc;
+      }
+    
 
   #photos {
     display: flex;
